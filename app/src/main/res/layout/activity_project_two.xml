@@ -7,15 +7,26 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="git.comgeorge_watkinsandroidprogramming.httpsgithub.projecttwo.ProjectTwo">
+    tools:context="git.comgeorge_watkinsandroidprogramming.httpsgithub.projecttwo.ProjectTwo"
+    android:background="@drawable/gutters"
+    android:scaleType="fitXY"
+    android:id="@+id/ProjectTwo">
 
 
     <ImageView
+        android:clickable="true"
+        android:onClick="goCamera"
         android:foreground="@drawable/camera"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/cameraButton"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:contentDescription="cameraButton" />
+        android:layout_centerHorizontal="true" />
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="wrap_content"
+        android:layout_height="100dp">
+        android:
+
+    </android.support.v7.widget.Toolbar>
 </RelativeLayout>
